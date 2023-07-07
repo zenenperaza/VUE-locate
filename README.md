@@ -20,5 +20,11 @@ npm run build
 npm run lint
 ```
 
+### i vue-i18n@9
+
+```
+npm i vue-i18n@9
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
