@@ -1,20 +1,18 @@
 export const messages = {
     en: {
         message: {
-            hello: 'Hello world',
-            content: 'We are using i18n package'
+            hello: 'Hello {name} {surname}',
+            content: 'We are using i18n package',
+            products: 'no products | one product | {count } products',
+            comments: 'comment | comments'
         }
     },
     es: {
         message: {
-            hello: 'Hola mundo',
-            content: 'Estamos usando el paquete de i18n'
-        }
-    },
-    fr: {
-        message: {
-            hello: 'Hello world',
-            content: 'We are using i18n package'
+            hello: 'Hola {name} {surname}',
+            content: 'Estamos usando el paquete de i18n',
+            products: 'Sin productos | Un producto | {count } productos',
+            comments: 'comentario | comentarios'
         }
     }
 }
